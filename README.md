@@ -39,13 +39,13 @@ The project uses SQLite with the default URL:
 `sqlite:///database.db`
 
 Settings location:
-- `/Users/ghiffari/Documents/personal/course/fastapi-basic/app/core/settings.py`
+- `/app/core/settings.py`
 
 ## Alembic Migration
 
 Migration initialization (already set up):
-- `/Users/ghiffari/Documents/personal/course/fastapi-basic/alembic`
-- `/Users/ghiffari/Documents/personal/course/fastapi-basic/alembic.ini`
+- `/alembic`
+- `/alembic.ini`
 
 Common commands:
 
