@@ -1,5 +1,5 @@
 from fastapi import Query
 
 
-def pagination(limit: int | None = Query(default=10), offset: int | None = Query(default=0)) -> dict:
-  return {"limit": limit, "offset": offset} 
+def pagination(limit: int = Query(default=10, ge=1), offset: int = Query(default=0, ge=0)) -> dict[str, int]:
+    return {"limit": limit, "offset": offset}
